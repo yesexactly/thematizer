@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thematizer | art meets code</title>
+
+  <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- If you are using the gem version, you need this only -->
+  <link rel="stylesheet" href="css/app.css">
+
+  <script src="js/vendor/modernizr.js"></script>
+
+</head>
+<body bgcolor="#404040">
+
+<div id="wrap">
+<div id="header">
+	<div id="logo"><img src="images/logo.jpg"></div>
+	<div id="domain">HTTP://YOURWEBSITEHERE.COM</div>
+</div>
+<div id="top_nav">
+	<div id="tabs">
+		<!-- A default button-group with small buttons inside -->
+		<ul id="tabs-group" class="button-group">
+			<li><a href="#" class="button round">LAYOUT</a></li>
+			<li><a href="#" class="button round">TEXT</a></li>
+			<li><a href="#" class="button round">EFFECTS</a></li>
+		</ul></div>
+	<div id="hide_show">
+		<div id="hide_show_label">HIDE / SHOW</div>
+		<div id="hide_show_icons"><img src="images/hide_show_icons.jpg"></div>
+	</div>
+	<div id="background_image">
+		<div id="background_image_label">BACKGROUND IMAGE</div> 
+		<a href="#" data-dropdown="background_image_drop" class="button round dropdown">SKETCH1.JPG</a><br>
+		<ul id="background_image_drop" data-dropdown-content class="f-dropdown">
+			<li><a href="#">NEW_BG.JPG</a></li>
+			<li><a href="#">FOO.JPG</a></li>
+			<li><a href="#">BAR.JPG</a></li>
+		</ul>
+	</div>
+	<div id="preview"><ul id="preview-group" class="button-group">
+			<li><a href="#" class="button round">PREVIEW</a></li>
+			<li><a href="#" class="button round">PUBLISH</a></li>
+		</ul></div>
+</div>
+<div id="main"></div>
+<div id="screen_res"><div id="screen_res_inner">
+	<div id="mobile_icon"><img src="images/mobile_icon.jpg"></div>
+	<div id="fullscreen_icon"><img src="images/fullscreen_icon.jpg"></div>
+	<div id="tablet_icon"><img src="images/tablet_icon.jpg"></div>
+	<div style="clear:both;"></div>
+	<div id="screen_res_label">SCREEN RESOLUTION</div>
+	<a href="#" data-dropdown="screen_res_drop" class="button round dropdown">1024x800</a><br>
+		<ul id="screen_res_drop" data-dropdown-content class="f-dropdown">
+			<li><a href="#">800x600</a></li>
+			<li><a href="#">320x480</a></li>
+			<li><a href="#">1920x1024</a></li>
+		</ul>
+</div></div>
+<div id="css_styles"><div id="css_styles_inner">
+	<div id="css_styles_label">CSS STYLES</div>
+	<a href="#" data-dropdown="css_styles_drop" class="button round dropdown">CURRENT</a><br>
+		<ul id="css_styles_drop" data-dropdown-content class="f-dropdown">
+			<li><a href="#">FOO</a></li>
+			<li><a href="#">BAR</a></li>
+		</ul>
+	<div id="css_styles_ui" class="round">
+		<table>
+			<tr><td align="right">FONT</td><td>VERDANA</td></tr>
+			<tr><td align="right">SIZE</td><td>9PT</td></tr>
+			<tr><td align="right">WEIGHT</td><td>BOLD</td></tr>
+			<tr><td align="right">COLOR</td><td>#ff9919</td></tr>
+			<tr><td align="right">ALIGN</td><td>LEFT</td></tr>
+			<tr><td align="right"> </td><td> </td></tr>
+			<tr><td align="right"> </td><td> </td></tr>
+		</table>
+	</div>
+</div></div>
+<div id="text"><div id="text_inner">
+	<div id="text_label">TEXT</div>
+	<a href="#" id="font-family" data-dropdown="font-family_drop" class="button round dropdown">VERDANA</a><br>
+		<ul id="font-family_drop" data-dropdown-content class="f-dropdown">
+			<li><a href="#">HELVETICA</a></li>
+			<li><a href="#">ARIAL</a></li>
+		</ul>
+	<a href="#" id="font-size" data-dropdown="font-size_drop" class="button round dropdown">9PT</a><br>
+		<ul id="font-size_drop" data-dropdown-content class="f-dropdown">
+			<li><a href="#">10PT</a></li>
+			<li><a href="#">11PT</a></li>
+		</ul>
+	<a href="#" id="font-style" data-dropdown="font-style_drop" class="button round dropdown">BOLD</a><br>
+		<ul id="font-style_drop" data-dropdown-content class="f-dropdown">
+			<li><a href="#">ITALIC</a></li>
+			<li><a href="#">UNDERLINE</a></li>
+		</ul>
+	<a href="#" id="font-color" data-dropdown="font-color_drop" class="button round dropdown">#ff9919</a><br>
+		<ul id="font-color_drop" data-dropdown-content class="f-dropdown">
+			<li><a href="#">#2e2e2e</a></li>
+			<li><a href="#">#7d9654</a></li>
+		</ul>
+	<div id="text_icons"><img src="images/text_icons.jpg"></div>
+</div></div>
+<div id="theme_preview"><div id="theme_preview_inner">
+	<div id="theme_preview_label">THEME PREVIEW</div>
+	<a href="#" data-dropdown="theme_preview_drop" class="button round dropdown">DOUBLEHEADER</a><br>
+		<ul id="theme_preview_drop" data-dropdown-content class="f-dropdown">
+			<li><a href="#">3-COLUMN</a></li>
+			<li><a href="#">VERTICAL</a></li>
+			<li><a href="#">LEFT SIDEBAR</a></li>
+		</ul>
+	<div id="theme_preview_ui"><img src="images/theme_preview.jpg"></div>
+</div></div>
+<div id="comments"><div id="comments_inner">
+	<div id="comments_label">COMMENTS</div>
+	<div id="comments_ui" class="round">
+	<table>
+			<tr><td align="right" width="75">FROM</td><td align="center">TOPIC</td><td width="75">DATE</td></tr>
+			<tr><td align="right"> </td><td> </td><td> </td></tr>
+			<tr><td align="right"> </td><td> </td><td> </td></tr>
+			<tr><td align="right"> </td><td> </td><td> </td></tr>
+		</table>
+	</div>
+</div></div>
+<div id="footer"></div>
+</div>
+
+<script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
