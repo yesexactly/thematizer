@@ -8,7 +8,7 @@ Thematizer is open source collaboration software for graphic designers and web d
     
 The original design specification for the Thematizer was created in August 2011, as a joint project of Yes Exactly Web Design and Amherst College undergraduate Lexie Gaines-Smith. A rough Thematizer alpha version was completed in March 2013.
  
-Pending successful funding of our Kickstarter campaign, we plan to have a full-featured open-source product available for general release by Fall 2014.
+Pending successful funding of our crowdfunding campaign, we plan to have a full-featured open-source product available for general release by Fall 2014.
  
 We are currently seeking designers, testers, and web developers. For more information, go to http://www.artmeetscode.com for details on how to get involved in our project. 
 
